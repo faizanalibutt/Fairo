@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2919A3E9272CF545004F4945 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2919A3E8272CF545004F4945 /* File.swift */; };
 		2930C998270A27C100410E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930C997270A27C100410E91 /* AppDelegate.swift */; };
 		2930C99A270A27C100410E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930C999270A27C100410E91 /* SceneDelegate.swift */; };
 		2930C99C270A27C100410E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930C99B270A27C100410E91 /* ViewController.swift */; };
 		2930C99F270A27C100410E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2930C99D270A27C100410E91 /* Main.storyboard */; };
 		2930C9A1270A27CC00410E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2930C9A0270A27CC00410E91 /* Assets.xcassets */; };
 		2930C9A4270A27CC00410E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2930C9A2270A27CC00410E91 /* LaunchScreen.storyboard */; };
+		294EF18F272B12A7008DEB95 /* Henry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 294EF18E272B12A7008DEB95 /* Henry.jpeg */; };
+		29CF1752271BF0130032C72D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 29CF1751271BF0130032C72D /* Alamofire */; };
+		29CF1758271C1F9A0032C72D /* Faizi_bUtt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CF1757271C1F9A0032C72D /* Faizi_bUtt.jpg */; };
+		29CF175C271D07D80032C72D /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 29CF175B271D07D80032C72D /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2919A3E8272CF545004F4945 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		2930C994270A27C100410E91 /* Fairo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fairo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2930C997270A27C100410E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2930C999270A27C100410E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,9 @@
 		2930C9A0270A27CC00410E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2930C9A3270A27CC00410E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2930C9A5270A27CC00410E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294EF18E272B12A7008DEB95 /* Henry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Henry.jpeg; sourceTree = "<group>"; };
+		29CF1757271C1F9A0032C72D /* Faizi_bUtt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Faizi_bUtt.jpg; sourceTree = "<group>"; };
+		29DA4B13272CDB1A00256F44 /* Fairo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fairo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CF175C271D07D80032C72D /* SwiftyJSON in Frameworks */,
+				29CF1752271BF0130032C72D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +67,17 @@
 		2930C996270A27C100410E91 /* Fairo */ = {
 			isa = PBXGroup;
 			children = (
+				29DA4B13272CDB1A00256F44 /* Fairo.entitlements */,
 				2930C997270A27C100410E91 /* AppDelegate.swift */,
 				2930C999270A27C100410E91 /* SceneDelegate.swift */,
 				2930C99B270A27C100410E91 /* ViewController.swift */,
+				29CF1757271C1F9A0032C72D /* Faizi_bUtt.jpg */,
 				2930C99D270A27C100410E91 /* Main.storyboard */,
+				294EF18E272B12A7008DEB95 /* Henry.jpeg */,
 				2930C9A0270A27CC00410E91 /* Assets.xcassets */,
 				2930C9A2270A27CC00410E91 /* LaunchScreen.storyboard */,
 				2930C9A5270A27CC00410E91 /* Info.plist */,
+				2919A3E8272CF545004F4945 /* File.swift */,
 			);
 			path = Fairo;
 			sourceTree = "<group>";
@@ -83,6 +98,10 @@
 			dependencies = (
 			);
 			name = Fairo;
+			packageProductDependencies = (
+				29CF1751271BF0130032C72D /* Alamofire */,
+				29CF175B271D07D80032C72D /* SwiftyJSON */,
+			);
 			productName = Fairo;
 			productReference = 2930C994270A27C100410E91 /* Fairo.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +129,10 @@
 				Base,
 			);
 			mainGroup = 2930C98B270A27C100410E91;
+			packageReferences = (
+				29CF1750271BF0120032C72D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				29CF175A271D07D80032C72D /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 2930C995270A27C100410E91 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,8 +147,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294EF18F272B12A7008DEB95 /* Henry.jpeg in Resources */,
 				2930C9A4270A27CC00410E91 /* LaunchScreen.storyboard in Resources */,
 				2930C9A1270A27CC00410E91 /* Assets.xcassets in Resources */,
+				29CF1758271C1F9A0032C72D /* Faizi_bUtt.jpg in Resources */,
 				2930C99F270A27C100410E91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2930C99C270A27C100410E91 /* ViewController.swift in Sources */,
+				2919A3E9272CF545004F4945 /* File.swift in Sources */,
 				2930C998270A27C100410E91 /* AppDelegate.swift in Sources */,
 				2930C99A270A27C100410E91 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,15 +312,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7C44W42DX;
+				CODE_SIGN_ENTITLEMENTS = Fairo/Fairo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 293M6A583H;
 				INFOPLIST_FILE = Fairo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.faizistudio.Fairo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fairoinc.fairo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Fairo Provisioning Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,15 +335,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7C44W42DX;
+				CODE_SIGN_ENTITLEMENTS = Fairo/Fairo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 293M6A583H;
 				INFOPLIST_FILE = Fairo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.faizistudio.Fairo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fairoinc.fairo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Fairo Provisioning Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,6 +375,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29CF1750271BF0120032C72D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		29CF175A271D07D80032C72D /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29CF1751271BF0130032C72D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29CF1750271BF0120032C72D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		29CF175B271D07D80032C72D /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29CF175A271D07D80032C72D /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2930C98C270A27C100410E91 /* Project object */;
 }

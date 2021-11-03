@@ -1,116 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZCs-0I-kcb">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fairo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V11-MI-a7n">
-                                <rect key="frame" x="24" y="421" width="366" height="50"/>
-                                <color key="backgroundColor" name="AccentColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="XPy-fC-u9I"/>
-                                </constraints>
-                                <state key="normal" title="Scan Fairo Card">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We received an authentication request for Henry’s Palace. When you have your  Fairo card handy, press the button below." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9O-lE-oTB">
-                                <rect key="frame" x="24" y="212" width="366" height="61"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="V11-MI-a7n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1Oo-qG-han"/>
-                            <constraint firstItem="V11-MI-a7n" firstAttribute="top" secondItem="h9O-lE-oTB" secondAttribute="bottom" constant="150" id="PSc-UK-1cj"/>
-                            <constraint firstItem="h9O-lE-oTB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WWG-eg-KQn"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V11-MI-a7n" secondAttribute="trailing" constant="24" id="l76-2Z-3WR"/>
-                            <constraint firstItem="V11-MI-a7n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="sjm-JE-mNC"/>
-                            <constraint firstItem="h9O-lE-oTB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="vAF-1z-IYR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h9O-lE-oTB" secondAttribute="trailing" constant="24" id="yex-Ca-fGb"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="WWG-eg-KQn"/>
-                            </mask>
-                        </variation>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-390" y="20"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="siA-2a-6cG">
             <objects>
                 <viewController id="ZCs-0I-kcb" customClass="ViewController" customModule="Fairo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jl6-6Y-45M">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fM-rB-SPb">
-                                <rect key="frame" x="24" y="422" width="366" height="50"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OcT-yw-uGX">
+                                <rect key="frame" x="20" y="0.0" width="374" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fM-rB-SPb">
+                                <rect key="frame" x="24" y="343" width="366" height="50"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="gOw-Gw-rWp"/>
                                 </constraints>
-                                <state key="normal" title="Take Selfie">
+                                <state key="normal" title="Scan Fairo Card">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="closeFairo:" destination="ZCs-0I-kcb" eventType="touchUpInside" id="hMV-At-08M"/>
+                                    <action selector="openCamera:" destination="ZCs-0I-kcb" eventType="touchUpInside" id="DcI-L0-y5x"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taking picture to authenticate" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPW-Hi-9RQ">
-                                <rect key="frame" x="24" y="305" width="366" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We received an authentication request for Henry’s Palace. When you have your  Fairo card handy, press the button below." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPW-Hi-9RQ">
+                                <rect key="frame" x="24" y="189" width="366" height="54"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkT-ef-qD8">
+                                <rect key="frame" x="186" y="293" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gUY-Re-fIR">
+                                <rect key="frame" x="304" y="626" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="GDC-S6-5Ec"/>
+                                    <constraint firstAttribute="width" constant="100" id="hVJ-xI-XMC"/>
+                                </constraints>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQu-UJ-uOu">
+                                <rect key="frame" x="157" y="681" width="100" height="35"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="9D7-sS-63Q"/>
+                                    <constraint firstAttribute="height" constant="35" id="lRo-oF-5DB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Take Photo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="ZCs-0I-kcb" eventType="touchUpInside" id="Ea2-KA-kCF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="soD-P4-5NZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="soD-P4-5NZ" firstAttribute="trailing" secondItem="4fM-rB-SPb" secondAttribute="trailing" constant="24" id="3g1-4Z-eK2"/>
+                            <constraint firstItem="OcT-yw-uGX" firstAttribute="top" secondItem="Jl6-6Y-45M" secondAttribute="topMargin" id="3kS-oy-9Sv"/>
                             <constraint firstItem="bPW-Hi-9RQ" firstAttribute="leading" secondItem="soD-P4-5NZ" secondAttribute="leading" constant="24" id="6SI-VQ-r0U"/>
+                            <constraint firstItem="WkT-ef-qD8" firstAttribute="centerX" secondItem="Jl6-6Y-45M" secondAttribute="centerX" id="7VD-TV-HQ7"/>
                             <constraint firstItem="4fM-rB-SPb" firstAttribute="top" secondItem="bPW-Hi-9RQ" secondAttribute="bottom" constant="100" id="9HG-fg-3b4"/>
                             <constraint firstItem="soD-P4-5NZ" firstAttribute="trailing" secondItem="bPW-Hi-9RQ" secondAttribute="trailing" constant="24" id="AmW-0b-xe0"/>
+                            <constraint firstItem="soD-P4-5NZ" firstAttribute="bottom" secondItem="UQu-UJ-uOu" secondAttribute="bottom" constant="20" id="GV0-xt-ZLK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OcT-yw-uGX" secondAttribute="trailing" id="IGp-J5-ROS"/>
+                            <constraint firstItem="soD-P4-5NZ" firstAttribute="bottom" secondItem="gUY-Re-fIR" secondAttribute="bottom" constant="10" id="KJ3-KO-nTR"/>
+                            <constraint firstItem="OcT-yw-uGX" firstAttribute="leading" secondItem="Jl6-6Y-45M" secondAttribute="leadingMargin" id="MWi-4h-1gt"/>
                             <constraint firstItem="4fM-rB-SPb" firstAttribute="leading" secondItem="soD-P4-5NZ" secondAttribute="leading" constant="24" id="VCf-Tm-Wx3"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="OcT-yw-uGX" secondAttribute="bottom" id="VSH-H8-c1g"/>
+                            <constraint firstItem="UQu-UJ-uOu" firstAttribute="centerX" secondItem="Jl6-6Y-45M" secondAttribute="centerX" id="ZCP-FA-DyN"/>
+                            <constraint firstItem="WkT-ef-qD8" firstAttribute="top" secondItem="bPW-Hi-9RQ" secondAttribute="bottom" constant="50" id="dEm-H7-a72"/>
+                            <constraint firstItem="soD-P4-5NZ" firstAttribute="trailing" secondItem="gUY-Re-fIR" secondAttribute="trailing" constant="10" id="dX5-Sm-9ai"/>
                             <constraint firstItem="4fM-rB-SPb" firstAttribute="centerY" secondItem="Jl6-6Y-45M" secondAttribute="centerY" id="hs9-qR-oyx"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="cameraImageView" destination="gUY-Re-fIR" id="R36-U2-kfD"/>
+                        <outlet property="cameraPreview" destination="OcT-yw-uGX" id="VA5-1o-1HK"/>
+                        <outlet property="debugText" destination="WkT-ef-qD8" id="mTg-cR-KVG"/>
+                        <outlet property="fairoButton" destination="4fM-rB-SPb" id="DQ5-j9-hzC"/>
                         <outlet property="fairoText" destination="bPW-Hi-9RQ" id="Rri-DT-yQL"/>
+                        <outlet property="takePhoto" destination="UQu-UJ-uOu" id="xMb-H0-ezv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uVt-4w-ggm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1284" y="19"/>
+            <point key="canvasLocation" x="-1284.0579710144928" y="18.75"/>
         </scene>
     </scenes>
     <resources>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
